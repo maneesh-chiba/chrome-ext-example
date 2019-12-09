@@ -1,0 +1,47 @@
+{
+  "manifest_version": 2,
+  "name": "Wiki Scout",
+  "short_name": "Wiki Scout",
+  "version": "0.0.1",
+  "description": "A wikipedia link visualizer",
+  "icons": {
+    "16": "assets/wiki_scout_16.png",
+    "48": "assets/wiki_scout_48.png",
+    "128": "assets/wiki_scout_128.png",
+    "256": "assets/wiki_scout_256.png"
+  },
+  "browser_action": {
+    "default_icon": "assets/wiki_scout_48.png",
+    "default_title": "Wiki Scout",
+    "default_popup": "popup.html"
+  },
+  "author": "Maneesh Chiba",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_idle",
+      "matches": [
+        "https://www.wikipedia.org/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "assets/wiki_scout_256.png"
+  ],
+  "permissions": [
+    "tabs"
+  ],
+  "externally_connectable": {
+    "matches": [
+      "https://en.wikipedia.org/*"
+    ]
+  }
+}

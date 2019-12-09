@@ -1,1 +1,1 @@
-# chrome-ext-example
+# Wiki Scout
