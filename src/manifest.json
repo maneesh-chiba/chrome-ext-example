@@ -25,7 +25,7 @@
     {
       "run_at": "document_idle",
       "matches": [
-        "https://www.wikipedia.org/*"
+        "https://*.wikipedia.org/*"
       ],
       "js": [
         "content.js"
