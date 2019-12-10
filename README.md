@@ -3,12 +3,12 @@
 ## Road map:
 
 - [x] Create base repo
-- [ ] Add content script
-  - [ ] Get all links on page
-  - [ ] Filter links based on href to internal inks only
-  - [ ] Send payload to background script
-- [ ] Add background script
-  - [ ] Catch payload from content script
+- [x] Add content script
+  - [x] Get all links on page
+  - [x] Filter links based on href to internal inks only
+  - [x] Send payload to background script
+- [x] Add background script
+  - [x] Catch payload from content script
   - [ ] Create relational structure and persist it
   - [ ] Send relational structure to popup script
 - [ ] Add popup script
