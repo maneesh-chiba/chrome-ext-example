@@ -1,4 +1,6 @@
 # Wiki Scout
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmaneesh-chiba%2Fchrome-ext-example.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmaneesh-chiba%2Fchrome-ext-example?ref=badge_shield)
+
 
 ## Road map:
 
@@ -20,3 +22,6 @@
   - [ ] Create new relational structure
   - [ ] Send new relational structure to popup
   - [ ] Re-render force relational graph
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmaneesh-chiba%2Fchrome-ext-example.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmaneesh-chiba%2Fchrome-ext-example?ref=badge_large)
